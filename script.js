@@ -312,7 +312,7 @@ const LINHAS = [
           "Combate a queda e alopecia",
           "Uso tópico no couro cabeludo",
         ],
-        tamanho: "120 ml", preco: 100.00, img: "images/minoxidil-120ml.jpeg"
+        tamanho: "120 ml", preco: 100.00, img: ""
       },
     ],
   },
