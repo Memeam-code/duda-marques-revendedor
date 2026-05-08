@@ -428,7 +428,7 @@ const LINHAS = [
 /* ── SUPABASE ──────────────────────────────────────────────── */
 const SUPABASE_URL  = "https://qaomwjdjymxgdisddezq.supabase.co";
 const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhb213amRqeW14Z2Rpc2RkZXpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxODkwMDIsImV4cCI6MjA5Mzc2NTAwMn0.OEfM0pkg3n65IyHDvE287BQc1A3cctCG2YMS2GyIZ1k";
-let supabase = null;
+let supabaseClient = null;
 
 /* ============================================================
    STATE
@@ -512,7 +512,7 @@ function freteValor() {
    ============================================================ */
 function initSupabase() {
   if (window.supabase && SUPABASE_URL && SUPABASE_ANON) {
-    supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
   }
 }
 
@@ -1185,9 +1185,9 @@ Endereço: ${addr}${checkoutData.complemento ? '\nComplemento: ' + checkoutData.
 }
 
 async function saveOrderToSupabase(orderData) {
-  if (!supabase) return;
+  if (!supabaseClient) return;
   try {
-    await supabase.from('orders').insert([orderData]);
+    await supabaseClient.from('orders').insert([orderData]);
   } catch (e) {
     console.warn('Supabase save failed (non-critical):', e);
   }
