@@ -6,11 +6,12 @@
 const CONFIG = {
   NOME_LOJA:       "DUDA MARQUES",
   SLOGAN:          "COSMÉTICOS PROFISSIONAIS",
-  WHATSAPP:        "5521985873917",      // número com DDI
-  WHATSAPP_DISPLAY:"(21) 98587-3917",
+  WHATSAPP:        "558299490208",       // número com DDI
+  WHATSAPP_DISPLAY:"(82) 9949-0208",
+  WHATSAPP_MSG:    "Olá! Tenho interesse nos produtos Duda Marques e gostaria de mais informações.",
   FRETE_PAC:       19.90,
   FRETE_SEDEX:     39.90,
-  FRETE_GRATIS:    299,                  // valor mínimo p/ frete grátis
+  FRETE_GRATIS:    299,
   COR_PRIMARIA:    "#C8A96E",
   ANO_COPY:        2024,
 };
@@ -50,7 +51,7 @@ const LINHAS = [
           "Previne cortes químicos futuros",
         ],
         variantes: [
-          { sku: "1-1L",   tamanho: "1 L",    preco: 50.00, img: "images/shampoo-edta-1L-v2.jpeg" },
+          { sku: "1-1L",   tamanho: "1 L",    preco: 70.00, img: "images/shampoo-edta-1L-v2.jpeg" },
           { sku: "1-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-edta-300ml-v2.jpeg" },
         ]
       },
@@ -65,7 +66,7 @@ const LINHAS = [
           "Indicado para uso diário",
         ],
         variantes: [
-          { sku: "2-1L",   tamanho: "1 L",    preco: 50.00, img: "images/shampoo-hidratante-1L.jpeg" },
+          { sku: "2-1L",   tamanho: "1 L",    preco: 60.00, img: "images/shampoo-hidratante-1L.jpeg" },
           { sku: "2-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-hidratante-300ml.jpeg" },
         ]
       },
@@ -80,7 +81,7 @@ const LINHAS = [
           "Controla dermatite seborreica",
         ],
         variantes: [
-          { sku: "3-1L",   tamanho: "1 L",    preco: 50.00, img: "images/shampoo-anticaspa-1L.jpeg" },
+          { sku: "3-1L",   tamanho: "1 L",    preco: 60.00, img: "images/shampoo-anticaspa-1L.jpeg" },
           { sku: "3-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-anticaspa-300ml.jpeg" },
         ]
       },
@@ -99,7 +100,7 @@ const LINHAS = [
         ],
         modoUso: "Aplique no cabelo úmido, massageie suavemente o couro cabeludo, deixe agir por 1 a 2 minutos para sentir a sensação refrescante e enxágue.",
         variantes: [
-          { sku: "4-1L",   tamanho: "1 L",    preco: 100.00, img: "images/shampoo-mentolado-1L.jpeg" },
+          { sku: "4-1L",   tamanho: "1 L",    preco: 120.00, img: "images/shampoo-mentolado-1L.jpeg" },
           { sku: "4-300",  tamanho: "300 ml", preco: 50.00,  img: "images/shampoo-mentolado-300ml.jpeg" },
         ]
       },
@@ -153,8 +154,8 @@ const LINHAS = [
           "Aumenta a maciez dos fios",
         ],
         variantes: [
-          { sku: "6-1K",   tamanho: "1 kg",   preco: 50.00, img: "images/mascara-lipidica-1kg.jpeg" },
-          { sku: "6-650",  tamanho: "650 g", preco: 35.00, img: "images/mascara-lipidica-650g.jpeg" },
+          { sku: "6-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-lipidica-1kg.jpeg" },
+          { sku: "6-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-lipidica-650g.jpeg" },
         ]
       },
       {
@@ -167,8 +168,8 @@ const LINHAS = [
           "Hidratação profunda rápida",
         ],
         variantes: [
-          { sku: "7-1K",   tamanho: "1 kg",   preco: 50.00, img: "images/mascara-hidrica-1kg.jpeg" },
-          { sku: "7-650",  tamanho: "650 g", preco: 35.00, img: "images/mascara-hidrica-650g.jpeg" },
+          { sku: "7-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-hidrica-1kg.jpeg" },
+          { sku: "7-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-hidrica-650g.jpeg" },
         ]
       },
       {
@@ -182,8 +183,8 @@ const LINHAS = [
           "Ação instantânea na fibra",
         ],
         variantes: [
-          { sku: "8-1K",   tamanho: "1 kg",   preco: 50.00, img: "images/mascara-reconstrutora-1kg.jpeg" },
-          { sku: "8-650",  tamanho: "650 g", preco: 35.00, img: "images/mascara-reconstrutora-650g.jpeg" },
+          { sku: "8-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-reconstrutora-1kg.jpeg" },
+          { sku: "8-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-reconstrutora-650g.jpeg" },
         ]
       },
       {
@@ -197,8 +198,8 @@ const LINHAS = [
           "Ideal para loiros e grisalhos",
         ],
         variantes: [
-          { sku: "9-1K",   tamanho: "1 kg",   preco: 50.00, img: "images/mascara-matizadora-1kg.jpeg" },
-          { sku: "9-650",  tamanho: "650 g", preco: 35.00, img: "images/mascara-matizadora-650g.jpeg" },
+          { sku: "9-1K",   tamanho: "1 kg",   preco: 70.00, img: "images/mascara-matizadora-1kg.jpeg" },
+          { sku: "9-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-matizadora-650g.jpeg" },
         ]
       },
       {
@@ -227,7 +228,7 @@ const LINHAS = [
           "Para danos químicos severos",
         ],
         variantes: [
-          { sku: "11-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-super-reconstrutora-1kg.jpeg" },
+          { sku: "11-1K",  tamanho: "1 kg",   preco: 70.00, img: "images/mascara-super-reconstrutora-1kg.jpeg" },
           { sku: "11-650", tamanho: "650 g",  preco: 55.00, img: "images/mascara-super-reconstrutora-650g.jpeg" },
         ]
       },
@@ -235,8 +236,8 @@ const LINHAS = [
         id: 12, nome: "Máscara Super Hidratante",
         desc: "Hidratação intensa para fios desidratados",
         variantes: [
-          { sku: "12-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-super-hidratante-1kg.jpeg" },
-          { sku: "12-650", tamanho: "650 g", preco: 55.00, img: "images/mascara-super-hidratante-650g.jpeg" },
+          { sku: "12-1K",  tamanho: "1 kg",   preco: 70.00, img: "images/mascara-super-hidratante-1kg.jpeg" },
+          { sku: "12-650", tamanho: "650 g",  preco: 55.00, img: "images/mascara-super-hidratante-650g.jpeg" },
         ]
       },
       {
@@ -250,8 +251,8 @@ const LINHAS = [
           "Recupera o brilho perdido",
         ],
         variantes: [
-          { sku: "13-1K",  tamanho: "1 kg",   preco: 50.00, img: "images/mascara-super-ressecados-1kg.jpeg" },
-          { sku: "13-650", tamanho: "650 g", preco: 35.00, img: "images/mascara-super-ressecados-650g.jpeg" },
+          { sku: "13-1K",  tamanho: "1 kg",   preco: 60.00, img: "images/mascara-super-ressecados-1kg.jpeg" },
+          { sku: "13-650", tamanho: "650 g",  preco: 35.00, img: "images/mascara-super-ressecados-650g.jpeg" },
         ]
       },
     ],
@@ -276,7 +277,7 @@ const LINHAS = [
           "Refaz ligações peptídicas",
           "Restaura pontes de enxofre (cisteína)",
         ],
-        tamanho: "1 L", preco: 50.00, img: "images/queratina-1L.jpeg"
+        tamanho: "1 L", preco: 75.00, img: "images/queratina-1L.jpeg"
       },
       {
         id: 15, nome: "Colágeno",
@@ -288,7 +289,7 @@ const LINHAS = [
           "Reconstrói cabelos quebradiços",
           "Cria liga no córtex capilar",
         ],
-        tamanho: "500 ml", preco: 50.00, img: "images/colageno-500ml.jpeg"
+        tamanho: "500 ml", preco: 60.00, img: "images/colageno-500ml.jpeg"
       },
       {
         id: 16, nome: "Caseína",
@@ -299,7 +300,19 @@ const LINHAS = [
           "Recuperação instantânea da fibra",
           "Repõe nutrientes essenciais",
         ],
-        tamanho: "500 ml", preco: 50.00, img: "images/caseina-500ml.jpeg"
+        tamanho: "500 ml", preco: 60.00, img: "images/caseina-500ml.jpeg"
+      },
+      {
+        id: 25, nome: "Minoxidil 5%",
+        desc: "Estimula o crescimento e combate a queda capilar",
+        detalhes: "Vasodilatador tópico que estimula a circulação no couro cabeludo, favorecendo o crescimento dos fios e combatendo a alopecia androgenética.",
+        beneficios: [
+          "Concentração 5% de Minoxidil",
+          "Estimula o crescimento capilar",
+          "Combate a queda e alopecia",
+          "Uso tópico no couro cabeludo",
+        ],
+        tamanho: "120 ml", preco: 100.00, img: "images/minoxidil-120ml.jpeg"
       },
     ],
   },
@@ -341,7 +354,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "18-1L",  tamanho: "1 L",    preco: 100.00, img: "images/ativador-cachos-1L.jpeg" },
-          { sku: "18-650", tamanho: "650 g",  preco: 65.00,  img: "images/ativador-cachos-650g.jpeg" },
+          { sku: "18-650", tamanho: "650 g",  preco: 70.00,  img: "images/ativador-cachos-650g.jpeg" },
         ]
       },
       {
@@ -354,7 +367,7 @@ const LINHAS = [
           "Evita super aquecimento da fibra",
           "Previne desbotamento da cor",
         ],
-        tamanho: "500 ml", preco: 50.00, img: "images/defrizante-500ml.jpeg"
+        tamanho: "500 ml", preco: 60.00, img: "images/defrizante-500ml.jpeg"
       },
     ],
   },
@@ -393,8 +406,8 @@ const LINHAS = [
     icone:   "images/banner-progressivas-roxo.png",
     banner:  "images/banner-progressivas.jpeg",
     produtos: [
-      { id: 21, nome: "Progressiva Orgânica", desc: "Alisamento natural sem formol, com ativos orgânicos",   tamanho: "1 L", preco: 100.00, img: "images/progressiva-organica-1000ml.jpeg" },
-      { id: 22, nome: "Progressiva Redutora", desc: "Reduz volume e alinha os fios com efeito duradouro",   tamanho: "1 L", preco: 100.00, img: "images/progressiva-redutora-1000ml.jpeg" },
+      { id: 21, nome: "Progressiva de Formol", desc: "Alisamento potente com efeito duradouro",   tamanho: "1 kg", preco: 140.00, img: "images/progressiva-organica-1000ml.jpeg" },
+      { id: 22, nome: "Progressiva Ácida", desc: "Alisamento ácido + solução inclusa",   tamanho: "1 kg", preco: 150.00, img: "images/progressiva-redutora-1000ml.jpeg" },
     ],
   },
   {
@@ -504,7 +517,9 @@ function initSupabase() {
 }
 
 function applyConfig() {
-  const whatsLink = `https://wa.me/${CONFIG.WHATSAPP}`;
+  const msgEncoded = encodeURIComponent(CONFIG.WHATSAPP_MSG || '');
+  const whatsLink     = `https://wa.me/${CONFIG.WHATSAPP}`;
+  const whatsMsgLink  = `https://wa.me/${CONFIG.WHATSAPP}?text=${msgEncoded}`;
 
   // Texts
   document.title = CONFIG.NOME_LOJA;
@@ -517,14 +532,14 @@ function applyConfig() {
   document.getElementById('footer-copy').textContent =
     `© ${CONFIG.ANO_COPY} ${CONFIG.NOME_LOJA} · Todos os direitos reservados`;
 
-  // WhatsApp links
-  document.querySelectorAll('[href="https://wa.me/5521985873917"]').forEach(el => {
-    el.href = whatsLink;
+  // WhatsApp links — com mensagem pré-preenchida em todos os pontos de contato
+  document.querySelectorAll('[href^="https://wa.me/"]').forEach(el => {
+    el.href = whatsMsgLink;
   });
   const fwEl = document.getElementById('wa-float');
-  if (fwEl) fwEl.href = whatsLink;
+  if (fwEl) fwEl.href = whatsMsgLink;
   const ftWa = document.getElementById('footer-whatsapp');
-  if (ftWa) { ftWa.href = whatsLink; ftWa.textContent = CONFIG.WHATSAPP_DISPLAY; }
+  if (ftWa) { ftWa.href = whatsMsgLink; ftWa.textContent = CONFIG.WHATSAPP_DISPLAY; }
 
   // Frete — preços não exibidos; calculados pelo vendedor
 
