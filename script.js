@@ -312,7 +312,7 @@ const LINHAS = [
           "Sem formol na fórmula",
           "Resultado duradouro",
         ],
-        tamanho: "500 ml", preco: 80.00, img: ""
+        tamanho: "500 ml", preco: 80.00, img: "", mostrar: true
       },
       {
         id: 25, nome: "Minoxidil 5%",
@@ -324,7 +324,7 @@ const LINHAS = [
           "Combate a queda e alopecia",
           "Uso tópico no couro cabeludo",
         ],
-        tamanho: "120 ml", preco: 100.00, img: ""
+        tamanho: "120 ml", preco: 100.00, img: "", mostrar: true
       },
     ],
   },
@@ -621,6 +621,7 @@ function scrollToLine(id) {
  * Para produtos com variantes, basta UMA variante ter foto.
  */
 function temFoto(p) {
+  if (p.mostrar) return true;
   if (p.variantes && p.variantes.length) return p.variantes.some(v => v.img);
   return Boolean(p.img);
 }
