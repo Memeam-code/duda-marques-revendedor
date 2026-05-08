@@ -154,7 +154,7 @@ const LINHAS = [
           "Aumenta a maciez dos fios",
         ],
         variantes: [
-          { sku: "6-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-lipidica-1kg.jpeg" },
+          { sku: "6-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-lipidica-1kg.jpeg" },
           { sku: "6-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-lipidica-650g.jpeg" },
         ]
       },
@@ -168,7 +168,7 @@ const LINHAS = [
           "Hidratação profunda rápida",
         ],
         variantes: [
-          { sku: "7-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-hidrica-1kg.jpeg" },
+          { sku: "7-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-hidrica-1kg.jpeg" },
           { sku: "7-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-hidrica-650g.jpeg" },
         ]
       },
@@ -183,7 +183,7 @@ const LINHAS = [
           "Ação instantânea na fibra",
         ],
         variantes: [
-          { sku: "8-1K",   tamanho: "1 kg",   preco: 60.00, img: "images/mascara-reconstrutora-1kg.jpeg" },
+          { sku: "8-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-reconstrutora-1kg.jpeg" },
           { sku: "8-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-reconstrutora-650g.jpeg" },
         ]
       },
@@ -198,8 +198,8 @@ const LINHAS = [
           "Ideal para loiros e grisalhos",
         ],
         variantes: [
-          { sku: "9-1K",   tamanho: "1 kg",   preco: 70.00, img: "images/mascara-matizadora-1kg.jpeg" },
-          { sku: "9-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-matizadora-650g.jpeg" },
+          { sku: "9-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-matizadora-1kg.jpeg" },
+          { sku: "9-650",  tamanho: "650 g",  preco: 60.00, img: "images/mascara-matizadora-650g.jpeg" },
         ]
       },
       {
@@ -213,7 +213,7 @@ const LINHAS = [
           "Específica para fios afro",
         ],
         variantes: [
-          { sku: "10-1K",  tamanho: "1 kg",   preco: 50.00, img: "images/mascara-afro-1kg.jpeg" },
+          { sku: "10-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-afro-1kg.jpeg" },
           { sku: "10-650", tamanho: "650 g", preco: 35.00, img: "images/mascara-afro-650g.jpeg" },
         ]
       },
@@ -236,7 +236,7 @@ const LINHAS = [
         id: 12, nome: "Máscara Super Hidratante",
         desc: "Hidratação intensa para fios desidratados",
         variantes: [
-          { sku: "12-1K",  tamanho: "1 kg",   preco: 70.00, img: "images/mascara-super-hidratante-1kg.jpeg" },
+          { sku: "12-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-super-hidratante-1kg.jpeg" },
           { sku: "12-650", tamanho: "650 g",  preco: 55.00, img: "images/mascara-super-hidratante-650g.jpeg" },
         ]
       },
@@ -251,7 +251,7 @@ const LINHAS = [
           "Recupera o brilho perdido",
         ],
         variantes: [
-          { sku: "13-1K",  tamanho: "1 kg",   preco: 60.00, img: "images/mascara-super-ressecados-1kg.jpeg" },
+          { sku: "13-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-super-ressecados-1kg.jpeg" },
           { sku: "13-650", tamanho: "650 g",  preco: 35.00, img: "images/mascara-super-ressecados-650g.jpeg" },
         ]
       },
@@ -277,7 +277,7 @@ const LINHAS = [
           "Refaz ligações peptídicas",
           "Restaura pontes de enxofre (cisteína)",
         ],
-        tamanho: "1 L", preco: 75.00, img: "images/queratina-1L.jpeg"
+        tamanho: "1 L", preco: 80.00, img: "images/queratina-1L.jpeg"
       },
       {
         id: 15, nome: "Colágeno",
@@ -289,7 +289,7 @@ const LINHAS = [
           "Reconstrói cabelos quebradiços",
           "Cria liga no córtex capilar",
         ],
-        tamanho: "500 ml", preco: 60.00, img: "images/colageno-500ml.jpeg"
+        tamanho: "500 ml", preco: 80.00, img: "images/colageno-500ml.jpeg"
       },
       {
         id: 16, nome: "Caseína",
@@ -300,7 +300,19 @@ const LINHAS = [
           "Recuperação instantânea da fibra",
           "Repõe nutrientes essenciais",
         ],
-        tamanho: "500 ml", preco: 60.00, img: "images/caseina-500ml.jpeg"
+        tamanho: "500 ml", preco: 80.00, img: "images/caseina-500ml.jpeg"
+      },
+      {
+        id: 26, nome: "Tioureia",
+        desc: "Redução e relaxamento dos fios com ação reconstrutora",
+        detalhes: "Ativo utilizado para redução e relaxamento dos fios. Age nas ligações dissulfeto da queratina, promovendo alisamento e reconstrução simultâneos.",
+        beneficios: [
+          "Redução e relaxamento dos fios",
+          "Ação reconstrutora na fibra",
+          "Sem formol na fórmula",
+          "Resultado duradouro",
+        ],
+        tamanho: "500 ml", preco: 80.00, img: ""
       },
       {
         id: 25, nome: "Minoxidil 5%",
@@ -367,7 +379,7 @@ const LINHAS = [
           "Evita super aquecimento da fibra",
           "Previne desbotamento da cor",
         ],
-        tamanho: "500 ml", preco: 60.00, img: "images/defrizante-500ml.jpeg"
+        tamanho: "500 ml", preco: 80.00, img: "images/defrizante-500ml.jpeg"
       },
     ],
   },
@@ -392,7 +404,7 @@ const LINHAS = [
           "Previne desbotamento da fibra",
           "Brilho e maciez instantâneos",
         ],
-        tamanho: "300 ml", preco: 50.00, img: "images/oleo-bifasico-300ml.jpeg"
+        tamanho: "300 ml", preco: 80.00, img: "images/oleo-bifasico-300ml.jpeg"
       },
     ],
   },
