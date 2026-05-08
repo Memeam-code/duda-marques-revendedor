@@ -51,8 +51,8 @@ const LINHAS = [
           "Previne cortes químicos futuros",
         ],
         variantes: [
-          { sku: "1-1L",   tamanho: "1 L",    preco: 70.00, img: "images/shampoo-edta-1L-v2.jpeg" },
-          { sku: "1-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-edta-300ml-v2.jpeg" },
+          { sku: "1-1L",   tamanho: "1 L",    preco: 80.00, img: "images/shampoo-edta-1L-v2.jpeg" },
+          { sku: "1-300",  tamanho: "300 ml", preco: 40.00, img: "images/shampoo-edta-300ml-v2.jpeg" },
         ]
       },
       {
@@ -66,8 +66,8 @@ const LINHAS = [
           "Indicado para uso diário",
         ],
         variantes: [
-          { sku: "2-1L",   tamanho: "1 L",    preco: 60.00, img: "images/shampoo-hidratante-1L.jpeg" },
-          { sku: "2-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-hidratante-300ml.jpeg" },
+          { sku: "2-1L",   tamanho: "1 L",    preco: 80.00, img: "images/shampoo-hidratante-1L.jpeg" },
+          { sku: "2-300",  tamanho: "300 ml", preco: 40.00, img: "images/shampoo-hidratante-300ml.jpeg" },
         ]
       },
       {
@@ -81,8 +81,8 @@ const LINHAS = [
           "Controla dermatite seborreica",
         ],
         variantes: [
-          { sku: "3-1L",   tamanho: "1 L",    preco: 60.00, img: "images/shampoo-anticaspa-1L.jpeg" },
-          { sku: "3-300",  tamanho: "300 ml", preco: 25.00, img: "images/shampoo-anticaspa-300ml.jpeg" },
+          { sku: "3-1L",   tamanho: "1 L",    preco: 80.00, img: "images/shampoo-anticaspa-1L.jpeg" },
+          { sku: "3-300",  tamanho: "300 ml", preco: 40.00, img: "images/shampoo-anticaspa-300ml.jpeg" },
         ]
       },
       {
@@ -101,7 +101,7 @@ const LINHAS = [
         modoUso: "Aplique no cabelo úmido, massageie suavemente o couro cabeludo, deixe agir por 1 a 2 minutos para sentir a sensação refrescante e enxágue.",
         variantes: [
           { sku: "4-1L",   tamanho: "1 L",    preco: 120.00, img: "images/shampoo-mentolado-1L.jpeg" },
-          { sku: "4-300",  tamanho: "300 ml", preco: 50.00,  img: "images/shampoo-mentolado-300ml.jpeg" },
+          { sku: "4-300",  tamanho: "300 ml", preco: 70.00,  img: "images/shampoo-mentolado-300ml.jpeg" },
         ]
       },
       {
@@ -141,7 +141,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "24-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-antioxidante-1kg.jpeg" },
-          { sku: "24-650",  tamanho: "650 g", preco: 55.00, img: "images/mascara-antioxidante-650g.jpeg" },
+          { sku: "24-650",  tamanho: "650 g", preco: 60.00, img: "images/mascara-antioxidante-650g.jpeg" },
         ]
       },
       {
@@ -155,7 +155,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "6-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-lipidica-1kg.jpeg" },
-          { sku: "6-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-lipidica-650g.jpeg" },
+          { sku: "6-650",  tamanho: "650 g",  preco: 60.00, img: "images/mascara-lipidica-650g.jpeg" },
         ]
       },
       {
@@ -169,7 +169,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "7-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-hidrica-1kg.jpeg" },
-          { sku: "7-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-hidrica-650g.jpeg" },
+          { sku: "7-650",  tamanho: "650 g",  preco: 60.00, img: "images/mascara-hidrica-650g.jpeg" },
         ]
       },
       {
@@ -184,7 +184,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "8-1K",   tamanho: "1 kg",   preco: 80.00, img: "images/mascara-reconstrutora-1kg.jpeg" },
-          { sku: "8-650",  tamanho: "650 g",  preco: 35.00, img: "images/mascara-reconstrutora-650g.jpeg" },
+          { sku: "8-650",  tamanho: "650 g",  preco: 60.00, img: "images/mascara-reconstrutora-650g.jpeg" },
         ]
       },
       {
@@ -214,7 +214,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "10-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-afro-1kg.jpeg" },
-          { sku: "10-650", tamanho: "650 g", preco: 35.00, img: "images/mascara-afro-650g.jpeg" },
+          { sku: "10-650", tamanho: "650 g", preco: 60.00, img: "images/mascara-afro-650g.jpeg" },
         ]
       },
       {
@@ -252,7 +252,7 @@ const LINHAS = [
         ],
         variantes: [
           { sku: "13-1K",  tamanho: "1 kg",   preco: 80.00, img: "images/mascara-super-ressecados-1kg.jpeg" },
-          { sku: "13-650", tamanho: "650 g",  preco: 35.00, img: "images/mascara-super-ressecados-650g.jpeg" },
+          { sku: "13-650", tamanho: "650 g",  preco: 60.00, img: "images/mascara-super-ressecados-650g.jpeg" },
         ]
       },
     ],
