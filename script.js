@@ -426,8 +426,8 @@ const LINHAS = [
 ];
 
 /* ── SUPABASE ──────────────────────────────────────────────── */
-const SUPABASE_URL  = "https://uuarmzyntcqrbpludyrp.supabase.co";
-const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1YXJtenludGNxcmJwbHVkeXJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc1MDU5MzAsImV4cCI6MjA5MzA4MTkzMH0.1-R24RJrvoaR7XI3x7eaoXUPzXyH2h0WrrHnIZb_xQ4";
+const SUPABASE_URL  = "https://qaomwjdjymxgdisddezq.supabase.co";
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhb213amRqeW14Z2Rpc2RkZXpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxODkwMDIsImV4cCI6MjA5Mzc2NTAwMn0.OEfM0pkg3n65IyHDvE287BQc1A3cctCG2YMS2GyIZ1k";
 let supabase = null;
 
 /* ============================================================
